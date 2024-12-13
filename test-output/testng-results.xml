@@ -1,33 +1,165 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="18" passed="18" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-12-04T16:28:52 GMT+07:00" name="Default suite" finished-at="2024-12-04T16:28:56 GMT+07:00" duration-ms="4286">
+  <suite started-at="2024-12-13T20:38:40 GMT+07:00" name="Default suite" finished-at="2024-12-13T20:38:59 GMT+07:00" duration-ms="19226">
     <groups>
     </groups>
-    <test started-at="2024-12-04T16:28:52 GMT+07:00" name="Default test" finished-at="2024-12-04T16:28:56 GMT+07:00" duration-ms="4286">
-      <class name="test_register.RegisterTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:test_register.RegisterTest@6b927fb]" started-at="2024-12-04T16:28:51 GMT+07:00" name="setUp" finished-at="2024-12-04T16:28:52 GMT+07:00" duration-ms="1216" status="PASS">
+    <test started-at="2024-12-13T20:38:40 GMT+07:00" name="Default test" finished-at="2024-12-13T20:38:59 GMT+07:00" duration-ms="19226">
+      <class name="test_login.RegisterTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test_login.RegisterTest@2e005c4b]" started-at="2024-12-13T20:38:38 GMT+07:00" name="setUp" finished-at="2024-12-13T20:38:40 GMT+07:00" duration-ms="1118" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="beginTestCase()[pri:0, instance:test_register.RegisterTest@6b927fb]" started-at="2024-12-04T16:28:52 GMT+07:00" name="beginTestCase" finished-at="2024-12-04T16:28:56 GMT+07:00" duration-ms="4026" status="PASS">
+        <test-method is-config="true" signature="beginTestCase()[pri:0, instance:test_login.RegisterTest@2e005c4b]" started-at="2024-12-13T20:38:40 GMT+07:00" name="beginTestCase" finished-at="2024-12-13T20:38:42 GMT+07:00" duration-ms="2283" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beginTestCase -->
-        <test-method signature="verifyPageTitle()[pri:0, instance:test_register.RegisterTest@6b927fb]" started-at="2024-12-04T16:28:56 GMT+07:00" name="verifyPageTitle" finished-at="2024-12-04T16:28:56 GMT+07:00" duration-ms="50" status="PASS">
+        <test-method signature="testEmailExisted()[pri:0, instance:test_login.RegisterTest@2e005c4b]" started-at="2024-12-13T20:38:42 GMT+07:00" name="testEmailExisted" description="TC_005: Email already existed" finished-at="2024-12-13T20:38:43 GMT+07:00" duration-ms="1362" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyPageTitle -->
-        <test-method is-config="true" signature="endTestCase()[pri:0, instance:test_register.RegisterTest@6b927fb]" started-at="2024-12-04T16:28:56 GMT+07:00" name="endTestCase" finished-at="2024-12-04T16:28:56 GMT+07:00" duration-ms="185" status="PASS">
+        </test-method> <!-- testEmailExisted -->
+        <test-method is-config="true" signature="beginTestCase()[pri:0, instance:test_login.RegisterTest@2e005c4b]" started-at="2024-12-13T20:38:43 GMT+07:00" name="beginTestCase" finished-at="2024-12-13T20:38:44 GMT+07:00" duration-ms="662" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- endTestCase -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:test_register.RegisterTest@6b927fb]" started-at="2024-12-04T16:28:56 GMT+07:00" name="tearDown" finished-at="2024-12-04T16:28:56 GMT+07:00" duration-ms="192" status="PASS">
+        </test-method> <!-- beginTestCase -->
+        <test-method signature="testEmptyEmail()[pri:0, instance:test_login.RegisterTest@2e005c4b]" started-at="2024-12-13T20:38:44 GMT+07:00" name="testEmptyEmail" description="TC_006: Verify empty email input" finished-at="2024-12-13T20:38:44 GMT+07:00" duration-ms="168" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEmptyEmail -->
+        <test-method is-config="true" signature="beginTestCase()[pri:0, instance:test_login.RegisterTest@2e005c4b]" started-at="2024-12-13T20:38:44 GMT+07:00" name="beginTestCase" finished-at="2024-12-13T20:38:45 GMT+07:00" duration-ms="495" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beginTestCase -->
+        <test-method signature="testEmptyFullName()[pri:0, instance:test_login.RegisterTest@2e005c4b]" started-at="2024-12-13T20:38:45 GMT+07:00" name="testEmptyFullName" description="TC_002: Verify empty full name input" finished-at="2024-12-13T20:38:45 GMT+07:00" duration-ms="217" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEmptyFullName -->
+        <test-method is-config="true" signature="beginTestCase()[pri:0, instance:test_login.RegisterTest@2e005c4b]" started-at="2024-12-13T20:38:45 GMT+07:00" name="beginTestCase" finished-at="2024-12-13T20:38:45 GMT+07:00" duration-ms="519" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beginTestCase -->
+        <test-method signature="testEmptyPassword()[pri:0, instance:test_login.RegisterTest@2e005c4b]" started-at="2024-12-13T20:38:45 GMT+07:00" name="testEmptyPassword" description="TC_012: Verify empty password input" finished-at="2024-12-13T20:38:46 GMT+07:00" duration-ms="373" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEmptyPassword -->
+        <test-method is-config="true" signature="beginTestCase()[pri:0, instance:test_login.RegisterTest@2e005c4b]" started-at="2024-12-13T20:38:46 GMT+07:00" name="beginTestCase" finished-at="2024-12-13T20:38:46 GMT+07:00" duration-ms="516" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beginTestCase -->
+        <test-method signature="testEmptyPhone()[pri:0, instance:test_login.RegisterTest@2e005c4b]" started-at="2024-12-13T20:38:46 GMT+07:00" name="testEmptyPhone" description="TC_009: Verify empty phone input" finished-at="2024-12-13T20:38:46 GMT+07:00" duration-ms="162" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEmptyPhone -->
+        <test-method is-config="true" signature="beginTestCase()[pri:0, instance:test_login.RegisterTest@2e005c4b]" started-at="2024-12-13T20:38:46 GMT+07:00" name="beginTestCase" finished-at="2024-12-13T20:38:47 GMT+07:00" duration-ms="462" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beginTestCase -->
+        <test-method signature="testInvalidEmail()[pri:0, instance:test_login.RegisterTest@2e005c4b]" started-at="2024-12-13T20:38:47 GMT+07:00" name="testInvalidEmail" description="TC_004: Verify invalid email input" finished-at="2024-12-13T20:38:47 GMT+07:00" duration-ms="119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidEmail -->
+        <test-method is-config="true" signature="beginTestCase()[pri:0, instance:test_login.RegisterTest@2e005c4b]" started-at="2024-12-13T20:38:47 GMT+07:00" name="beginTestCase" finished-at="2024-12-13T20:38:47 GMT+07:00" duration-ms="460" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beginTestCase -->
+        <test-method signature="testInvalidPassword()[pri:0, instance:test_login.RegisterTest@2e005c4b]" started-at="2024-12-13T20:38:47 GMT+07:00" name="testInvalidPassword" description="TC_011: Verify invalid password input" finished-at="2024-12-13T20:38:48 GMT+07:00" duration-ms="1041" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidPassword -->
+        <test-method is-config="true" signature="beginTestCase()[pri:0, instance:test_login.RegisterTest@2e005c4b]" started-at="2024-12-13T20:38:48 GMT+07:00" name="beginTestCase" finished-at="2024-12-13T20:38:49 GMT+07:00" duration-ms="500" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beginTestCase -->
+        <test-method signature="testInvalidPhone()[pri:0, instance:test_login.RegisterTest@2e005c4b]" started-at="2024-12-13T20:38:49 GMT+07:00" name="testInvalidPhone" description="TC_008: Verify invalid phone input" finished-at="2024-12-13T20:38:49 GMT+07:00" duration-ms="210" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidPhone -->
+        <test-method is-config="true" signature="beginTestCase()[pri:0, instance:test_login.RegisterTest@2e005c4b]" started-at="2024-12-13T20:38:49 GMT+07:00" name="beginTestCase" finished-at="2024-12-13T20:38:50 GMT+07:00" duration-ms="473" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beginTestCase -->
+        <test-method signature="testNoRoleChosen()[pri:0, instance:test_login.RegisterTest@2e005c4b]" started-at="2024-12-13T20:38:50 GMT+07:00" name="testNoRoleChosen" description="TC_015: Validate that no role is chosen" finished-at="2024-12-13T20:38:50 GMT+07:00" duration-ms="122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNoRoleChosen -->
+        <test-method is-config="true" signature="beginTestCase()[pri:0, instance:test_login.RegisterTest@2e005c4b]" started-at="2024-12-13T20:38:50 GMT+07:00" name="beginTestCase" finished-at="2024-12-13T20:38:50 GMT+07:00" duration-ms="477" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beginTestCase -->
+        <test-method signature="testOwnerChosen()[pri:0, instance:test_login.RegisterTest@2e005c4b]" started-at="2024-12-13T20:38:50 GMT+07:00" name="testOwnerChosen" description="TC_016: Validate that Owner is chosen" finished-at="2024-12-13T20:38:50 GMT+07:00" duration-ms="210" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOwnerChosen -->
+        <test-method is-config="true" signature="beginTestCase()[pri:0, instance:test_login.RegisterTest@2e005c4b]" started-at="2024-12-13T20:38:50 GMT+07:00" name="beginTestCase" finished-at="2024-12-13T20:38:51 GMT+07:00" duration-ms="441" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beginTestCase -->
+        <test-method signature="testPasswordMatchCorrect()[pri:0, instance:test_login.RegisterTest@2e005c4b]" started-at="2024-12-13T20:38:51 GMT+07:00" name="testPasswordMatchCorrect" description="TC_013: Validate that password and confirm password match" finished-at="2024-12-13T20:38:51 GMT+07:00" duration-ms="312" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPasswordMatchCorrect -->
+        <test-method is-config="true" signature="beginTestCase()[pri:0, instance:test_login.RegisterTest@2e005c4b]" started-at="2024-12-13T20:38:51 GMT+07:00" name="beginTestCase" finished-at="2024-12-13T20:38:52 GMT+07:00" duration-ms="459" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beginTestCase -->
+        <test-method signature="testPasswordNotMatch()[pri:0, instance:test_login.RegisterTest@2e005c4b]" started-at="2024-12-13T20:38:52 GMT+07:00" name="testPasswordNotMatch" description="TC_014: Validate that password and confirm password not match" finished-at="2024-12-13T20:38:53 GMT+07:00" duration-ms="1085" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPasswordNotMatch -->
+        <test-method is-config="true" signature="beginTestCase()[pri:0, instance:test_login.RegisterTest@2e005c4b]" started-at="2024-12-13T20:38:53 GMT+07:00" name="beginTestCase" finished-at="2024-12-13T20:38:53 GMT+07:00" duration-ms="468" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beginTestCase -->
+        <test-method signature="testRegisterSuccess()[pri:0, instance:test_login.RegisterTest@2e005c4b]" started-at="2024-12-13T20:38:53 GMT+07:00" name="testRegisterSuccess" description="TC_018: Validate register success" finished-at="2024-12-13T20:38:55 GMT+07:00" duration-ms="1949" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegisterSuccess -->
+        <test-method is-config="true" signature="beginTestCase()[pri:0, instance:test_login.RegisterTest@2e005c4b]" started-at="2024-12-13T20:38:55 GMT+07:00" name="beginTestCase" finished-at="2024-12-13T20:38:56 GMT+07:00" duration-ms="554" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beginTestCase -->
+        <test-method signature="testRenterChosen()[pri:0, instance:test_login.RegisterTest@2e005c4b]" started-at="2024-12-13T20:38:56 GMT+07:00" name="testRenterChosen" description="TC_017: Validate that Renter is chosen" finished-at="2024-12-13T20:38:56 GMT+07:00" duration-ms="189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRenterChosen -->
+        <test-method is-config="true" signature="beginTestCase()[pri:0, instance:test_login.RegisterTest@2e005c4b]" started-at="2024-12-13T20:38:56 GMT+07:00" name="beginTestCase" finished-at="2024-12-13T20:38:57 GMT+07:00" duration-ms="610" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beginTestCase -->
+        <test-method signature="testValidEmail()[pri:0, instance:test_login.RegisterTest@2e005c4b]" started-at="2024-12-13T20:38:57 GMT+07:00" name="testValidEmail" description="TC_003: Verify valid email input" finished-at="2024-12-13T20:38:57 GMT+07:00" duration-ms="117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidEmail -->
+        <test-method is-config="true" signature="beginTestCase()[pri:0, instance:test_login.RegisterTest@2e005c4b]" started-at="2024-12-13T20:38:57 GMT+07:00" name="beginTestCase" finished-at="2024-12-13T20:38:57 GMT+07:00" duration-ms="428" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beginTestCase -->
+        <test-method signature="testValidFullName()[pri:0, instance:test_login.RegisterTest@2e005c4b]" started-at="2024-12-13T20:38:57 GMT+07:00" name="testValidFullName" description="TC_001: Verify valid full name input" finished-at="2024-12-13T20:38:57 GMT+07:00" duration-ms="201" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidFullName -->
+        <test-method is-config="true" signature="beginTestCase()[pri:0, instance:test_login.RegisterTest@2e005c4b]" started-at="2024-12-13T20:38:57 GMT+07:00" name="beginTestCase" finished-at="2024-12-13T20:38:58 GMT+07:00" duration-ms="472" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beginTestCase -->
+        <test-method signature="testValidPassword()[pri:0, instance:test_login.RegisterTest@2e005c4b]" started-at="2024-12-13T20:38:58 GMT+07:00" name="testValidPassword" description="TC_010: Verify valid password input" finished-at="2024-12-13T20:38:58 GMT+07:00" duration-ms="447" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidPassword -->
+        <test-method is-config="true" signature="beginTestCase()[pri:0, instance:test_login.RegisterTest@2e005c4b]" started-at="2024-12-13T20:38:58 GMT+07:00" name="beginTestCase" finished-at="2024-12-13T20:38:59 GMT+07:00" duration-ms="416" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beginTestCase -->
+        <test-method signature="testValidPhone()[pri:0, instance:test_login.RegisterTest@2e005c4b]" started-at="2024-12-13T20:38:59 GMT+07:00" name="testValidPhone" description="TC_007: Verify valid phone input" finished-at="2024-12-13T20:38:59 GMT+07:00" duration-ms="189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidPhone -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test_login.RegisterTest@2e005c4b]" started-at="2024-12-13T20:38:59 GMT+07:00" name="tearDown" finished-at="2024-12-13T20:38:59 GMT+07:00" duration-ms="177" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- test_register.RegisterTest -->
+      </class> <!-- test_login.RegisterTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
